@@ -1,11 +1,77 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clothesContainer{
+  width: 100%;
+  max-width: 1024px;
+ 
+  justify-content: center;
+  align-items: center;
+
+
+}
+.card {
+  display: inline-block;
+  margin: 10px;
+  color: #61dafb;
+  background-color: gray;
+}
+.detailContainer {
+  width: 100%;
+  height: 100vh;
+ 
+  padding: 10px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.otherContainer {
+  flex: 1;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  
 }
 
+.headerContainer {
+  background-color: #61dafb;
+  height: 50px;
+  width: 100%;
+  max-width: 1024px;
+}
+a {
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px;
+  color: darkblue;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+a:hover{
+  color: teal;
+ 
+}
+.frontContainer {
+  flex: 2;
+  margin-top: 10px;
+}
+.price {
+  font-size: 20px
+}
+.card-img-top {
+  object-fit:fill;
+  border-radius: 10px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
